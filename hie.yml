@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "json-cache:lib"
+
+    - path: "./app/Main.hs"
+      component: "json-cache:exe:json-cache-exe"
+
+    - path: "./app/Paths_json-cache.hs"
+      component: "json-cache:exe:json-cache-exe"
+
+    - path: "./test"
+      component: "json-cache:test:json-cache-test"
